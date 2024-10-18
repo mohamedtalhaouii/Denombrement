@@ -11,11 +11,11 @@ def main():
     p = int(input("Entrer le nombre d'elements a choisir : "))
     type = input("Arrangement (A), Combinaison (C) ou Permutation (P)? : ")
     if type == "A":
-        print("A(",n,",",p,") : ", Arrangement(n, p, R))
+        print("A(",n,",",p,") = ", Arrangement(n, p, R))
     elif type == "C":
-        print("C(",n,",",p,") : ", Combinaison(n, p, R))
+        print("C(",n,",",p,") = ", Combinaison(n, p, R))
     elif type == "P":
-        print("P(",n,",",p,") : ", Permutation(n, p, R))
+        print("P(",n,",",p,") = ", Permutation(n, p, R))
 
 
 #Denombrement
